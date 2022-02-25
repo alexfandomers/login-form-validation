@@ -1,6 +1,6 @@
 # login-form-validation
 Login Form Validation in HTML CSS &amp; JavaScript
-orm Validation in HTML means to check that the user’s entered credential – Email, Username, Password is valid and correct or not.
+form Validation in HTML means to check that the user’s entered credential – Email, Username, Password is valid and correct or not.
 User will not get access to the restricted page until he/she entered a valid email and password. 
 And, Shake Effect in this Login Form means when the user clicks on the login button without entering their email and password then the input boxes shake
 to inform the user that these fields can’t be blank.
