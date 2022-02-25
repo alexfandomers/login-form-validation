@@ -18,6 +18,8 @@ form.onsubmit = (e)=>{
   eInput.onkeyup = ()=>{checkEmail();} //calling checkEmail function on email input keyup
   pInput.onkeyup = ()=>{checkPass();} //calling checkPassword function on pass input keyup
 
+  /*lets create a function because when user entered invalid email and click on the login BTN the invalid email error isn't showing
+  (we put this code inside of a funcntion e call it 2 times, one when entering email second when user clik on login button)*/
   function checkEmail(){ //checkEmail function
     let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/; //pattern for validate email
     if(!eInput.value.match(pattern)){ //if pattern not matched then add error and remove valid class
